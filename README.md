@@ -3,21 +3,15 @@
 [![AI-Collaborated](https://img.shields.io/badge/AI-Collaborated-blueviolet?style=for-the-badge&logo=openai)](https://github.com/kkfreedom/ubuntu-benchmark-script)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-[English](#english) | [简体中文](#简体中文)
+A professional, aesthetically pleasing, and comprehensive Ubuntu server performance assessment tool written in Python. Specially optimized for network detection and speed testing under **Split-Proxy / Transparent Proxy** environments.
 
 ---
 
-<a name="english"></a>
-
-## 🌐 English Version
-
-A professional, aesthetically pleasing, and comprehensive Ubuntu server performance assessment tool written in Python. Specially optimized for network detection and speed testing under **Split-Proxy / Transparent Proxy** environments.
-
-### 🤖 AI Collaboration Statement
+## 🤖 AI Collaboration Statement
 > **Note**
 > This project was developed in deep collaboration between **kkfreedom** and **Gemini CLI (AI Assistant)**. The AI contributed to the core software architecture, network split-tunneling logic optimization, and Terminal UI enhancements.
 
-### ✨ Key Features
+## ✨ Key Features
 - 💻 **Hardware Overview**: Instant retrieval of CPU model, core/thread count, and total RAM.
 - ⚡ **Computation Benchmark**: Evaluates single-core performance via high-precision Pi calculation.
 - 💾 **IO Throughput Test**: Real-world synchronous write and sequential read speed measurements (100MB test file).
@@ -27,7 +21,7 @@ A professional, aesthetically pleasing, and comprehensive Ubuntu server performa
 - 🚀 **Smart Network Speedtest**: Automatically matches the fastest server node based on the current exit IP.
 - 🎨 **Rich Terminal UI**: Powered by the `rich` library, featuring dynamic progress bars, nested panels, and colorful summary tables.
 
-### 🛠️ Installation & Usage
+## 🛠️ Installation & Usage
 ```bash
 # 1. Install Python3
 sudo apt update && sudo apt install -y python3-pip
@@ -41,7 +35,8 @@ python3 benchmark.py
 
 ---
 
-<a name="简体中文"></a>
+<details>
+<summary><b>🇨🇳 zh_CN 简体中文 (Click to expand)</b></summary>
 
 ## 🇨🇳 简体中文版
 
@@ -72,6 +67,7 @@ pip3 install rich psutil requests speedtest-cli --break-system-packages
 # 3. 快速启动
 python3 benchmark.py
 ```
+</details>
 
 ---
 
